@@ -3,7 +3,7 @@ int binarysearch(int arr[],int n,int ele)
 {int start=0;
 int end=n-1;
 int mid;
-    while(start<=end)
+    for(start=0;start<=end;end++)
     {mid=(start+end)/2;
     if(ele==arr[mid])
     {printf("element found at position %d\n",mid);
